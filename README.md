@@ -6,6 +6,13 @@
 
 ---
 
-Перед установкой ОБЯЗАТЕЛЬНО откройте config/hypr/config/monitor.conf и настройте под себя.
+Перед установкой ОБЯЗАТЕЛЬНО откройте `config/hypr/config/monitor.conf` и настройте под себя.
 
 Также Waybar, hyprlock и все что работает с мониторами.
+
+---
+
+Обязательный софт:
+```
+$ yay -S alacritty waybar-git nautilus rofi-wayland dunst
+```
