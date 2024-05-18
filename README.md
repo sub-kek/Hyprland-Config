@@ -14,5 +14,5 @@
 
 Обязательный софт:
 ```
-$ yay -S alacritty waybar-git nautilus rofi-wayland dunst
+$ yay -S alacritty waybar-git nautilus rofi-wayland dunst grim slurp
 ```
