@@ -57,6 +57,11 @@ cmake --build build
 sudo cmake --install build
 cd ..
 
+# - aquamarine
+yay -S hwdata
+git clone --recursive https://github.com/hyprwm/aquamarine.git
+cd aquamarine && hyprBuildInstall all && cd ..
+
 # - Hyprland
 yay -S gdb ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libxfixes libx11 libxcomposite xorg-xinput libxrender pixman wayland-protocols cairo pango seatd libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff libdisplay-info cpio tomlplusplus xcb-util-errors
 git clone --recursive https://github.com/hyprwm/Hyprland
